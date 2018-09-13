@@ -30,7 +30,7 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    background: rgba(lighten(darken($primary-color, 6), 2), 0.6);
   }
 }
 
@@ -125,7 +125,7 @@ main {
     border: 3px #fff solid;
 
     &:hover {
-      opacity: 0.5;
+      opacity: 0.75;
       border-color: $secondary-color;
       @include easeOut;
     }
